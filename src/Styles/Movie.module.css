@@ -1,0 +1,100 @@
+/* .delete_btn {
+    
+    display: inline-block;
+    outline: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    color: #0F1111;
+    font-size: 11px;
+    height: 22px;
+    padding: 0 6px;
+    text-align: center;
+    font-weight: 500;
+}
+.delete_btn:hover {
+    background: #FF4742;
+    border-color: #FF4742;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+} */
+/* Delete Button */
+/* .delete_btn {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.delete_btn:hover,
+.delete_btn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.delete_btn:active {
+  opacity: .5;
+} */
+
+/* imdb_btn */
+.imdb_btn{
+    display: inline-block;
+    outline: none;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 10px 15px;
+    border: 0;
+    color: #0c0b00;
+    background: #deb522;
+    line-height: 1.15;
+    font-size: 16px;
+    
+}
+.imdb_btn:hover{
+    transition: all .1s ease;
+}
+
+
+.delete_btn {
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 10px 15px;
+    border: 0;
+    /* color: #000021; */
+    color: #FFFFDD;
+    background: #cc1f1f;
+    line-height: 1.15;
+    font-size: 16px;
+    
+
+}
+.delete_btn:hover {
+    transition: all .3s;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #cc1f1f;
+}
+
+.bg-main {
+  background-color: #353e465c;
+}

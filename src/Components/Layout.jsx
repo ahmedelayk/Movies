@@ -1,7 +1,10 @@
-import React from 'react'
+import { Outlet } from 'react-router-dom'
+// import { lazy } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import { Outlet } from 'react-router-dom'
+// const Navbar = lazy(()=>import('./Navbar'));
+// const Footer = lazy(()=>import('./Footer'));
+
 export default function Layout() {
   return (
     <>
